@@ -128,7 +128,7 @@
 
 .cont .right .card{
     width: 10rem;
-    height: 5rem;
+    height: 5.5rem;
     border: 1px solid transparent;
     border-radius: 20px;
     background-color: rgb(56, 56, 56 , 0.5);
@@ -155,7 +155,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /* text-align: start; */
 }
+.card2 .art p{
+    text-align: start;
+}
+
 
 .card2 .circle{
     width: 30%;
@@ -314,7 +319,7 @@
     }
     .habits .cont .card img{
         width: 60%;
-        height: 75%;
+        height: 80%;
         border: 2px solid black;
         border-radius: 100px;
         margin: 30px;
@@ -344,6 +349,7 @@
     border: 2px solid transparent;
     border-radius: 20px;
     display: flex;
+    /* justify-content: space-around; */
     flex-direction: row;
     padding: 20px;
 }
@@ -377,12 +383,13 @@
     width: 50%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
+    justify-content: flex-end;
+    align-items: center;
 
 }
 .card .img img{
     width: 80%;
+    height: 80%;
     border: 2px solid transparent;
     border-radius: 20px;
 }
@@ -533,6 +540,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.title5 p{
+    color: grey;
 }
 
 
@@ -758,6 +769,10 @@
 
 .section6 h1{
     font-size: 2rem;
+}
+
+.section6 .cusg{
+    color: gray;
 }
 
 .testimonials{
